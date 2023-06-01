@@ -57,6 +57,6 @@ app.post("/addcustomer", (req, res) => {
   console.log(customers);
 });
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${port}.`);
 });
